@@ -19,7 +19,11 @@
 
 
 
-https://github.com/aminebdj/3D-OWIS/assets/95423980/aa937e74-9a90-4c09-8c65-bc11a5974dfd
+
+
+https://github.com/aminebdj/3D-OWIS/assets/95423980/cbf5538b-51de-4f60-bf6c-ef1dce5c54c6
+
+
 
 
 
