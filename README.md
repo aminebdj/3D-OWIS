@@ -1,6 +1,6 @@
 <div align="center">
  
-## 3D-OWIS: 3D Indoor Instance Segmentation in an Open-World
+## 3D Indoor Instance Segmentation in an Open-World (NeurIPS 2023)
 
 </div>
 
