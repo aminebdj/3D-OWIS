@@ -1,0 +1,266 @@
+- color_mean:
+  - 0.47700716585470365
+  - 0.4376505095764418
+  - 0.3724685823646766
+  color_std:
+  - 0.28224289149128917
+  - 0.24168583965029916
+  - 0.18675133882168043
+  file_len: 81369
+  filepath: data/processed/scannet200/train/0000_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0000_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00_vh_clean_2.0.010000.segs.json
+  scene: 0
+  scene_type: Apartment
+  sub_scene: 0
+- color_mean:
+  - 0.4758066278271605
+  - 0.4349830512103828
+  - 0.36869013145136204
+  color_std:
+  - 0.27922306102009403
+  - 0.2389313744980036
+  - 0.1833540503416035
+  file_len: 80583
+  filepath: data/processed/scannet200/train/0000_01.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0000_01.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0000_01/scene0000_01.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0000_01/scene0000_01_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0000_01/scene0000_01.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0000_01/scene0000_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0000_01/scene0000_01_vh_clean_2.0.010000.segs.json
+  scene: 0
+  scene_type: Apartment
+  sub_scene: 1
+- color_mean:
+  - 0.45169666289790067
+  - 0.4180015234660974
+  - 0.3579389295746903
+  color_std:
+  - 0.25455851547839936
+  - 0.2234048262477174
+  - 0.17544687455933441
+  file_len: 86001
+  filepath: data/processed/scannet200/train/0000_02.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0000_02.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0000_02/scene0000_02.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0000_02/scene0000_02_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0000_02/scene0000_02.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0000_02/scene0000_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0000_02/scene0000_02_vh_clean_2.0.010000.segs.json
+  scene: 0
+  scene_type: Apartment
+  sub_scene: 2
+- color_mean:
+  - 0.37599616109528744
+  - 0.33269154769279885
+  - 0.29555929823772153
+  color_std:
+  - 0.196433650612295
+  - 0.1676427979681263
+  - 0.14862368404044135
+  file_len: 125526
+  filepath: data/processed/scannet200/train/0001_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0001_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0001_00/scene0001_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0001_00/scene0001_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0001_00/scene0001_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0001_00/scene0001_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0001_00/scene0001_00_vh_clean_2.0.010000.segs.json
+  scene: 1
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.379413632059483
+  - 0.3326801535295584
+  - 0.2946423970579962
+  color_std:
+  - 0.20904937741763546
+  - 0.17828217008481978
+  - 0.15711583248920824
+  file_len: 124429
+  filepath: data/processed/scannet200/train/0001_01.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0001_01.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0001_01/scene0001_01.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0001_01/scene0001_01_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0001_01/scene0001_01.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0001_01/scene0001_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0001_01/scene0001_01_vh_clean_2.0.010000.segs.json
+  scene: 1
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.37882051994195753
+  - 0.33246517646478546
+  - 0.28805467317777733
+  color_std:
+  - 0.21080186384603872
+  - 0.1703084473825343
+  - 0.13757341005192858
+  file_len: 297362
+  filepath: data/processed/scannet200/train/0002_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0002_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0002_00/scene0002_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0002_00/scene0002_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0002_00/scene0002_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0002_00/scene0002_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0002_00/scene0002_00_vh_clean_2.0.010000.segs.json
+  scene: 2
+  scene_type: Living room / Lounge
+  sub_scene: 0
+- color_mean:
+  - 0.40443439693513544
+  - 0.36310674812215143
+  - 0.32187858389275437
+  color_std:
+  - 0.2439570613566185
+  - 0.20562774597716005
+  - 0.17284599433378625
+  file_len: 286378
+  filepath: data/processed/scannet200/train/0002_01.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0002_01.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0002_01/scene0002_01.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0002_01/scene0002_01_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0002_01/scene0002_01.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0002_01/scene0002_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0002_01/scene0002_01_vh_clean_2.0.010000.segs.json
+  scene: 2
+  scene_type: Living room / Lounge
+  sub_scene: 1
+- color_mean:
+  - 0.6602036264343057
+  - 0.5967947628949829
+  - 0.5109286910845398
+  color_std:
+  - 0.5300972618054443
+  - 0.451058238406804
+  - 0.36448757650552355
+  file_len: 82063
+  filepath: data/processed/scannet200/train/0003_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0003_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0003_00/scene0003_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0003_00/scene0003_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0003_00/scene0003_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0003_00/scene0003_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0003_00/scene0003_00_vh_clean_2.0.010000.segs.json
+  scene: 3
+  scene_type: Kitchen
+  sub_scene: 0
+- color_mean:
+  - 0.6707927616487586
+  - 0.6192633314186466
+  - 0.5459213764992976
+  color_std:
+  - 0.5447331214130577
+  - 0.48205585831019804
+  - 0.40989307904900246
+  file_len: 89197
+  filepath: data/processed/scannet200/train/0003_01.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0003_01.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0003_01/scene0003_01.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0003_01/scene0003_01_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0003_01/scene0003_01.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0003_01/scene0003_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0003_01/scene0003_01_vh_clean_2.0.010000.segs.json
+  scene: 3
+  scene_type: Kitchen
+  sub_scene: 1
+- color_mean:
+  - 0.6618822862800048
+  - 0.6008383993571702
+  - 0.521131186032863
+  color_std:
+  - 0.532845394046435
+  - 0.4609651013311188
+  - 0.3839814511668985
+  file_len: 87066
+  filepath: data/processed/scannet200/train/0003_02.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0003_02.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0003_02/scene0003_02.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0003_02/scene0003_02_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0003_02/scene0003_02.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0003_02/scene0003_02_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0003_02/scene0003_02_vh_clean_2.0.010000.segs.json
+  scene: 3
+  scene_type: Kitchen
+  sub_scene: 2
+- color_mean:
+  - 0.6171681685130215
+  - 0.6731051674106173
+  - 0.7204058807382347
+  color_std:
+  - 0.4761832424473691
+  - 0.5345801171355824
+  - 0.5924759774447588
+  file_len: 173649
+  filepath: data/processed/scannet200/train/0004_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0004_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0004_00/scene0004_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0004_00/scene0004_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0004_00/scene0004_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0004_00/scene0004_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0004_00/scene0004_00_vh_clean_2.0.010000.segs.json
+  scene: 4
+  scene_type: Hallway
+  sub_scene: 0
+- color_mean:
+  - 0.43768679234509483
+  - 0.3715382563127174
+  - 0.27616572829530134
+  color_std:
+  - 0.2542658532975928
+  - 0.1913690933097074
+  - 0.11971712376965456
+  file_len: 119502
+  filepath: data/processed/scannet200/train/0005_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0005_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0005_00/scene0005_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0005_00/scene0005_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0005_00/scene0005_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0005_00/scene0005_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0005_00/scene0005_00_vh_clean_2.0.010000.segs.json
+  scene: 5
+  scene_type: Misc.
+  sub_scene: 0
+- color_mean:
+  - 0.43486669612538414
+  - 0.3644934745127275
+  - 0.25969505619480765
+  color_std:
+  - 0.25595527970152515
+  - 0.18737659789373692
+  - 0.11003693748812723
+  file_len: 123403
+  filepath: data/processed/scannet200/train/0005_01.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0005_01.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0005_01/scene0005_01.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0005_01/scene0005_01_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0005_01/scene0005_01.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0005_01/scene0005_01_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0005_01/scene0005_01_vh_clean_2.0.010000.segs.json
+  scene: 5
+  scene_type: Misc.
+  sub_scene: 1
+- color_mean:
+  - 0.4246763928957828
+  - 0.3863013822521575
+  - 0.3490431416807259
+  color_std:
+  - 0.2704873575236304
+  - 0.23891301900531986
+  - 0.2157019869015798
+  file_len: 203795
+  filepath: data/processed/scannet200/train/0006_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0006_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0006_00/scene0006_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0006_00/scene0006_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0006_00/scene0006_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0006_00/scene0006_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0006_00/scene0006_00_vh_clean_2.0.010000.segs.json
+  scene: 6
+  scene_type: Bedroom / Hotel
+  sub_scene: 0

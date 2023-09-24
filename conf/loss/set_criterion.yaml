@@ -1,0 +1,30 @@
+# @package _group_
+_target_: models.criterion.SetCriterion
+train_is_true: ${general.train_mode}
+num_classes: ${general.num_targets}
+eos_coef: 0.1
+losses:
+  - "labels"
+  - "masks"
+  - "objectness"
+num_points: ${matcher.num_points}
+oversample_ratio: 3.0
+importance_sample_ratio: 0.75
+class_weights: -1
+num_querries: ${model.num_queries}
+hidden_dim: ${model.hidden_dim}
+store_path: ${general.store_path}
+clustering_start_iter: ${general.clustering_start_iter}
+clustering_update_mu_iter: ${general.clustering_update_mu_iter}
+enable_baseline_clustering: ${general.enable_baseline_clustering}
+enable_multiple_stage_clustering: ${general.enable_multiple_stage_clustering}
+clustering_momentum: ${general.clustering_momentum}
+store_size: ${general.store_size}
+OW_task: ${general.OW_task}
+split: ${general.split}
+train_oracle: ${general.train_oracle}
+save_dir: ${general.save_dir}
+margin: ${general.margin}
+finetune: ${general.finetune}
+baseline_finetune: ${general.baseline_finetune}
+use_obj_loss: ${general.use_obj_loss}

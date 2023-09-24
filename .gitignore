@@ -1,1 +1,6 @@
-saved
+/saved
+/eval_output
+/data
+/*.png
+/json
+/*.ckpt

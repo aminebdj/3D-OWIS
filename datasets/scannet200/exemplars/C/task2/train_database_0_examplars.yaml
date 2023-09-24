@@ -1,0 +1,19 @@
+- color_mean:
+  - 0.47700716585470365
+  - 0.4376505095764418
+  - 0.3724685823646766
+  color_std:
+  - 0.28224289149128917
+  - 0.24168583965029916
+  - 0.18675133882168043
+  file_len: 81369
+  filepath: data/processed/scannet200/train/0000_00.npy
+  instance_gt_filepath: data/processed/scannet200/instance_gt/train/scene0000_00.txt
+  raw_description_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00.txt
+  raw_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00_vh_clean_2.ply
+  raw_instance_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00.aggregation.json
+  raw_label_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00_vh_clean_2.labels.ply
+  raw_segmentation_filepath: data/raw/scannet_test_segments/scans/scene0000_00/scene0000_00_vh_clean_2.0.010000.segs.json
+  scene: 0
+  scene_type: Apartment
+  sub_scene: 0

@@ -1,0 +1,1407 @@
+1:
+  color:
+  - 174.0
+  - 199.0
+  - 232.0
+  name: wall
+  validation: true
+2:
+  color:
+  - 188.0
+  - 189.0
+  - 34.0
+  name: chair
+  validation: true
+3:
+  color:
+  - 152.0
+  - 223.0
+  - 138.0
+  name: floor
+  validation: true
+4:
+  color:
+  - 255.0
+  - 152.0
+  - 150.0
+  name: table
+  validation: true
+5:
+  color:
+  - 214.0
+  - 39.0
+  - 40.0
+  name: door
+  validation: true
+6:
+  color:
+  - 91.0
+  - 135.0
+  - 229.0
+  name: couch
+  validation: true
+7:
+  color:
+  - 31.0
+  - 119.0
+  - 180.0
+  name: cabinet
+  validation: true
+8:
+  color:
+  - 229.0
+  - 91.0
+  - 104.0
+  name: shelf
+  validation: true
+9:
+  color:
+  - 247.0
+  - 182.0
+  - 210.0
+  name: desk
+  validation: true
+10:
+  color:
+  - 91.0
+  - 229.0
+  - 110.0
+  name: office chair
+  validation: true
+11:
+  color:
+  - 255.0
+  - 187.0
+  - 120.0
+  name: bed
+  validation: true
+13:
+  color:
+  - 141.0
+  - 91.0
+  - 229.0
+  name: pillow
+  validation: true
+14:
+  color:
+  - 112.0
+  - 128.0
+  - 144.0
+  name: sink
+  validation: true
+15:
+  color:
+  - 196.0
+  - 156.0
+  - 148.0
+  name: picture
+  validation: true
+16:
+  color:
+  - 197.0
+  - 176.0
+  - 213.0
+  name: window
+  validation: true
+17:
+  color:
+  - 44.0
+  - 160.0
+  - 44.0
+  name: toilet
+  validation: true
+18:
+  color:
+  - 148.0
+  - 103.0
+  - 189.0
+  name: bookshelf
+  validation: true
+19:
+  color:
+  - 229.0
+  - 91.0
+  - 223.0
+  name: monitor
+  validation: true
+21:
+  color:
+  - 219.0
+  - 219.0
+  - 141.0
+  name: curtain
+  validation: true
+22:
+  color:
+  - 192.0
+  - 229.0
+  - 91.0
+  name: book
+  validation: true
+23:
+  color:
+  - 88.0
+  - 218.0
+  - 137.0
+  name: armchair
+  validation: true
+24:
+  color:
+  - 58.0
+  - 98.0
+  - 137.0
+  name: coffee table
+  validation: true
+26:
+  color:
+  - 177.0
+  - 82.0
+  - 239.0
+  name: box
+  validation: true
+27:
+  color:
+  - 255.0
+  - 127.0
+  - 14.0
+  name: refrigerator
+  validation: true
+28:
+  color:
+  - 237.0
+  - 204.0
+  - 37.0
+  name: lamp
+  validation: true
+29:
+  color:
+  - 41.0
+  - 206.0
+  - 32.0
+  name: kitchen cabinet
+  validation: true
+31:
+  color:
+  - 62.0
+  - 143.0
+  - 148.0
+  name: towel
+  validation: true
+32:
+  color:
+  - 34.0
+  - 14.0
+  - 130.0
+  name: clothes
+  validation: true
+33:
+  color:
+  - 143.0
+  - 45.0
+  - 115.0
+  name: tv
+  validation: true
+34:
+  color:
+  - 137.0
+  - 63.0
+  - 14.0
+  name: nightstand
+  validation: true
+35:
+  color:
+  - 23.0
+  - 190.0
+  - 207.0
+  name: counter
+  validation: true
+36:
+  color:
+  - 16.0
+  - 212.0
+  - 139.0
+  name: dresser
+  validation: true
+38:
+  color:
+  - 90.0
+  - 119.0
+  - 201.0
+  name: stool
+  validation: true
+39:
+  color:
+  - 125.0
+  - 30.0
+  - 141.0
+  name: cushion
+  validation: true
+40:
+  color:
+  - 150.0
+  - 53.0
+  - 56.0
+  name: plant
+  validation: true
+41:
+  color:
+  - 186.0
+  - 197.0
+  - 62.0
+  name: ceiling
+  validation: true
+42:
+  color:
+  - 227.0
+  - 119.0
+  - 194.0
+  name: bathtub
+  validation: true
+44:
+  color:
+  - 38.0
+  - 100.0
+  - 128.0
+  name: end table
+  validation: true
+45:
+  color:
+  - 120.0
+  - 31.0
+  - 243.0
+  name: dining table
+  validation: true
+46:
+  color:
+  - 154.0
+  - 59.0
+  - 103.0
+  name: keyboard
+  validation: true
+47:
+  color:
+  - 169.0
+  - 137.0
+  - 78.0
+  name: bag
+  validation: true
+48:
+  color:
+  - 143.0
+  - 245.0
+  - 111.0
+  name: backpack
+  validation: true
+49:
+  color:
+  - 37.0
+  - 230.0
+  - 205.0
+  name: toilet paper
+  validation: true
+50:
+  color:
+  - 14.0
+  - 16.0
+  - 155.0
+  name: printer
+  validation: true
+51:
+  color:
+  - 196.0
+  - 51.0
+  - 182.0
+  name: tv stand
+  validation: true
+52:
+  color:
+  - 237.0
+  - 80.0
+  - 38.0
+  name: whiteboard
+  validation: true
+54:
+  color:
+  - 138.0
+  - 175.0
+  - 62.0
+  name: blanket
+  validation: true
+55:
+  color:
+  - 158.0
+  - 218.0
+  - 229.0
+  name: shower curtain
+  validation: true
+56:
+  color:
+  - 38.0
+  - 96.0
+  - 167.0
+  name: trash can
+  validation: true
+57:
+  color:
+  - 190.0
+  - 77.0
+  - 246.0
+  name: closet
+  validation: true
+58:
+  color:
+  - 208.0
+  - 49.0
+  - 84.0
+  name: stairs
+  validation: true
+59:
+  color:
+  - 208.0
+  - 193.0
+  - 72.0
+  name: microwave
+  validation: true
+62:
+  color:
+  - 55.0
+  - 220.0
+  - 57.0
+  name: stove
+  validation: true
+63:
+  color:
+  - 10.0
+  - 125.0
+  - 140.0
+  name: shoe
+  validation: true
+64:
+  color:
+  - 76.0
+  - 38.0
+  - 202.0
+  name: computer tower
+  validation: true
+65:
+  color:
+  - 191.0
+  - 28.0
+  - 135.0
+  name: bottle
+  validation: true
+66:
+  color:
+  - 211.0
+  - 120.0
+  - 42.0
+  name: bin
+  validation: true
+67:
+  color:
+  - 118.0
+  - 174.0
+  - 76.0
+  name: ottoman
+  validation: true
+68:
+  color:
+  - 17.0
+  - 242.0
+  - 171.0
+  name: bench
+  validation: true
+69:
+  color:
+  - 20.0
+  - 65.0
+  - 247.0
+  name: board
+  validation: true
+70:
+  color:
+  - 208.0
+  - 61.0
+  - 222.0
+  name: washing machine
+  validation: true
+71:
+  color:
+  - 162.0
+  - 62.0
+  - 60.0
+  name: mirror
+  validation: true
+72:
+  color:
+  - 210.0
+  - 235.0
+  - 62.0
+  name: copier
+  validation: true
+73:
+  color:
+  - 45.0
+  - 152.0
+  - 72.0
+  name: basket
+  validation: true
+74:
+  color:
+  - 35.0
+  - 107.0
+  - 149.0
+  name: sofa chair
+  validation: true
+75:
+  color:
+  - 160.0
+  - 89.0
+  - 237.0
+  name: file cabinet
+  validation: true
+76:
+  color:
+  - 227.0
+  - 56.0
+  - 125.0
+  name: fan
+  validation: true
+77:
+  color:
+  - 169.0
+  - 143.0
+  - 81.0
+  name: laptop
+  validation: true
+78:
+  color:
+  - 42.0
+  - 143.0
+  - 20.0
+  name: shower
+  validation: true
+79:
+  color:
+  - 25.0
+  - 160.0
+  - 151.0
+  name: paper
+  validation: true
+80:
+  color:
+  - 82.0
+  - 75.0
+  - 227.0
+  name: person
+  validation: true
+82:
+  color:
+  - 253.0
+  - 59.0
+  - 222.0
+  name: paper towel dispenser
+  validation: true
+84:
+  color:
+  - 240.0
+  - 130.0
+  - 89.0
+  name: oven
+  validation: true
+86:
+  color:
+  - 123.0
+  - 172.0
+  - 47.0
+  name: blinds
+  validation: true
+87:
+  color:
+  - 71.0
+  - 194.0
+  - 133.0
+  name: rack
+  validation: true
+88:
+  color:
+  - 24.0
+  - 94.0
+  - 205.0
+  name: plate
+  validation: true
+89:
+  color:
+  - 134.0
+  - 16.0
+  - 179.0
+  name: blackboard
+  validation: true
+90:
+  color:
+  - 159.0
+  - 32.0
+  - 52.0
+  name: piano
+  validation: true
+93:
+  color:
+  - 213.0
+  - 208.0
+  - 88.0
+  name: suitcase
+  validation: true
+95:
+  color:
+  - 64.0
+  - 158.0
+  - 70.0
+  name: rail
+  validation: true
+96:
+  color:
+  - 18.0
+  - 163.0
+  - 194.0
+  name: radiator
+  validation: true
+97:
+  color:
+  - 65.0
+  - 29.0
+  - 153.0
+  name: recycling bin
+  validation: true
+98:
+  color:
+  - 177.0
+  - 10.0
+  - 109.0
+  name: container
+  validation: true
+99:
+  color:
+  - 152.0
+  - 83.0
+  - 7.0
+  name: wardrobe
+  validation: true
+100:
+  color:
+  - 83.0
+  - 175.0
+  - 30.0
+  name: soap dispenser
+  validation: true
+101:
+  color:
+  - 18.0
+  - 199.0
+  - 153.0
+  name: telephone
+  validation: true
+102:
+  color:
+  - 61.0
+  - 81.0
+  - 208.0
+  name: bucket
+  validation: true
+103:
+  color:
+  - 213.0
+  - 85.0
+  - 216.0
+  name: clock
+  validation: true
+104:
+  color:
+  - 170.0
+  - 53.0
+  - 42.0
+  name: stand
+  validation: true
+105:
+  color:
+  - 161.0
+  - 192.0
+  - 38.0
+  name: light
+  validation: true
+106:
+  color:
+  - 23.0
+  - 241.0
+  - 91.0
+  name: laundry basket
+  validation: true
+107:
+  color:
+  - 12.0
+  - 103.0
+  - 170.0
+  name: pipe
+  validation: true
+110:
+  color:
+  - 151.0
+  - 41.0
+  - 245.0
+  name: clothes dryer
+  validation: true
+112:
+  color:
+  - 133.0
+  - 51.0
+  - 80.0
+  name: guitar
+  validation: true
+115:
+  color:
+  - 184.0
+  - 162.0
+  - 91.0
+  name: toilet paper holder
+  validation: true
+116:
+  color:
+  - 50.0
+  - 138.0
+  - 38.0
+  name: seat
+  validation: true
+118:
+  color:
+  - 31.0
+  - 237.0
+  - 236.0
+  name: speaker
+  validation: true
+120:
+  color:
+  - 39.0
+  - 19.0
+  - 208.0
+  name: column
+  validation: true
+121:
+  color:
+  - 223.0
+  - 27.0
+  - 180.0
+  name: bicycle
+  validation: true
+122:
+  color:
+  - 254.0
+  - 141.0
+  - 85.0
+  name: ladder
+  validation: true
+125:
+  color:
+  - 97.0
+  - 144.0
+  - 39.0
+  name: bathroom stall
+  validation: true
+128:
+  color:
+  - 106.0
+  - 231.0
+  - 176.0
+  name: shower wall
+  validation: true
+130:
+  color:
+  - 12.0
+  - 61.0
+  - 162.0
+  name: cup
+  validation: true
+131:
+  color:
+  - 124.0
+  - 66.0
+  - 140.0
+  name: jacket
+  validation: true
+132:
+  color:
+  - 137.0
+  - 66.0
+  - 73.0
+  name: storage bin
+  validation: true
+134:
+  color:
+  - 250.0
+  - 253.0
+  - 26.0
+  name: coffee maker
+  validation: true
+136:
+  color:
+  - 55.0
+  - 191.0
+  - 73.0
+  name: dishwasher
+  validation: true
+138:
+  color:
+  - 60.0
+  - 126.0
+  - 146.0
+  name: paper towel roll
+  validation: true
+139:
+  color:
+  - 153.0
+  - 108.0
+  - 234.0
+  name: machine
+  validation: true
+140:
+  color:
+  - 184.0
+  - 58.0
+  - 125.0
+  name: mat
+  validation: true
+141:
+  color:
+  - 135.0
+  - 84.0
+  - 14.0
+  name: windowsill
+  validation: true
+145:
+  color:
+  - 139.0
+  - 248.0
+  - 91.0
+  name: bar
+  validation: true
+148:
+  color:
+  - 53.0
+  - 200.0
+  - 172.0
+  name: toaster
+  validation: true
+154:
+  color:
+  - 63.0
+  - 69.0
+  - 134.0
+  name: bulletin board
+  validation: true
+155:
+  color:
+  - 190.0
+  - 75.0
+  - 186.0
+  name: ironing board
+  validation: true
+156:
+  color:
+  - 127.0
+  - 63.0
+  - 52.0
+  name: fireplace
+  validation: true
+157:
+  color:
+  - 141.0
+  - 182.0
+  - 25.0
+  name: soap dish
+  validation: true
+159:
+  color:
+  - 56.0
+  - 144.0
+  - 89.0
+  name: kitchen counter
+  validation: true
+161:
+  color:
+  - 64.0
+  - 160.0
+  - 250.0
+  name: doorframe
+  validation: true
+163:
+  color:
+  - 182.0
+  - 86.0
+  - 245.0
+  name: toilet paper dispenser
+  validation: true
+165:
+  color:
+  - 139.0
+  - 18.0
+  - 53.0
+  name: mini fridge
+  validation: true
+166:
+  color:
+  - 134.0
+  - 120.0
+  - 54.0
+  name: fire extinguisher
+  validation: true
+168:
+  color:
+  - 49.0
+  - 165.0
+  - 42.0
+  name: ball
+  validation: true
+169:
+  color:
+  - 51.0
+  - 128.0
+  - 133.0
+  name: hat
+  validation: true
+170:
+  color:
+  - 44.0
+  - 21.0
+  - 163.0
+  name: shower curtain rod
+  validation: true
+177:
+  color:
+  - 232.0
+  - 93.0
+  - 193.0
+  name: water cooler
+  validation: true
+180:
+  color:
+  - 176.0
+  - 102.0
+  - 54.0
+  name: paper cutter
+  validation: true
+185:
+  color:
+  - 116.0
+  - 217.0
+  - 17.0
+  name: tray
+  validation: true
+188:
+  color:
+  - 54.0
+  - 209.0
+  - 150.0
+  name: shower door
+  validation: true
+191:
+  color:
+  - 60.0
+  - 99.0
+  - 204.0
+  name: pillar
+  validation: true
+193:
+  color:
+  - 129.0
+  - 43.0
+  - 144.0
+  name: ledge
+  validation: true
+195:
+  color:
+  - 252.0
+  - 100.0
+  - 106.0
+  name: toaster oven
+  validation: true
+202:
+  color:
+  - 187.0
+  - 196.0
+  - 73.0
+  name: mouse
+  validation: true
+208:
+  color:
+  - 13.0
+  - 158.0
+  - 40.0
+  name: toilet seat cover dispenser
+  validation: true
+213:
+  color:
+  - 52.0
+  - 122.0
+  - 152.0
+  name: furniture
+  validation: true
+214:
+  color:
+  - 128.0
+  - 76.0
+  - 202.0
+  name: cart
+  validation: true
+221:
+  color:
+  - 187.0
+  - 50.0
+  - 115.0
+  name: storage container
+  validation: true
+229:
+  color:
+  - 180.0
+  - 141.0
+  - 71.0
+  name: scale
+  validation: true
+230:
+  color:
+  - 77.0
+  - 208.0
+  - 35.0
+  name: tissue box
+  validation: true
+232:
+  color:
+  - 72.0
+  - 183.0
+  - 168.0
+  name: light switch
+  validation: true
+233:
+  color:
+  - 97.0
+  - 99.0
+  - 203.0
+  name: crate
+  validation: true
+242:
+  color:
+  - 172.0
+  - 22.0
+  - 158.0
+  name: power outlet
+  validation: true
+250:
+  color:
+  - 155.0
+  - 64.0
+  - 40.0
+  name: decoration
+  validation: true
+261:
+  color:
+  - 118.0
+  - 159.0
+  - 30.0
+  name: sign
+  validation: true
+264:
+  color:
+  - 69.0
+  - 252.0
+  - 148.0
+  name: projector
+  validation: true
+276:
+  color:
+  - 45.0
+  - 103.0
+  - 173.0
+  name: closet door
+  validation: true
+283:
+  color:
+  - 111.0
+  - 38.0
+  - 149.0
+  name: vacuum cleaner
+  validation: true
+286:
+  color:
+  - 184.0
+  - 9.0
+  - 49.0
+  name: candle
+  validation: true
+300:
+  color:
+  - 188.0
+  - 174.0
+  - 67.0
+  name: plunger
+  validation: true
+304:
+  color:
+  - 53.0
+  - 206.0
+  - 53.0
+  name: stuffed animal
+  validation: true
+312:
+  color:
+  - 97.0
+  - 235.0
+  - 252.0
+  name: headphones
+  validation: true
+323:
+  color:
+  - 66.0
+  - 32.0
+  - 182.0
+  name: dish rack
+  validation: true
+325:
+  color:
+  - 236.0
+  - 114.0
+  - 195.0
+  name: broom
+  validation: true
+331:
+  color:
+  - 241.0
+  - 154.0
+  - 83.0
+  name: guitar case
+  validation: true
+342:
+  color:
+  - 133.0
+  - 240.0
+  - 52.0
+  name: range hood
+  validation: true
+356:
+  color:
+  - 16.0
+  - 205.0
+  - 144.0
+  name: dustpan
+  validation: true
+370:
+  color:
+  - 75.0
+  - 101.0
+  - 198.0
+  name: hair dryer
+  validation: true
+392:
+  color:
+  - 237.0
+  - 95.0
+  - 251.0
+  name: water bottle
+  validation: true
+395:
+  color:
+  - 191.0
+  - 52.0
+  - 49.0
+  name: handicap bar
+  validation: true
+399:
+  color:
+  - 227.0
+  - 254.0
+  - 54.0
+  name: purse
+  validation: true
+408:
+  color:
+  - 49.0
+  - 206.0
+  - 87.0
+  name: vent
+  validation: true
+417:
+  color:
+  - 48.0
+  - 113.0
+  - 150.0
+  name: shower floor
+  validation: true
+488:
+  color:
+  - 125.0
+  - 73.0
+  - 182.0
+  name: water pitcher
+  validation: true
+540:
+  color:
+  - 229.0
+  - 32.0
+  - 114.0
+  name: mailbox
+  validation: true
+562:
+  color:
+  - 158.0
+  - 119.0
+  - 28.0
+  name: bowl
+  validation: true
+570:
+  color:
+  - 60.0
+  - 205.0
+  - 27.0
+  name: paper bag
+  validation: true
+572:
+  color:
+  - 18.0
+  - 215.0
+  - 201.0
+  name: alarm clock
+  validation: true
+581:
+  color:
+  - 79.0
+  - 76.0
+  - 153.0
+  name: music stand
+  validation: true
+609:
+  color:
+  - 134.0
+  - 13.0
+  - 116.0
+  name: projector screen
+  validation: true
+748:
+  color:
+  - 192.0
+  - 97.0
+  - 63.0
+  name: divider
+  validation: true
+776:
+  color:
+  - 108.0
+  - 163.0
+  - 18.0
+  name: laundry detergent
+  validation: true
+1156:
+  color:
+  - 95.0
+  - 220.0
+  - 156.0
+  name: bathroom counter
+  validation: true
+1163:
+  color:
+  - 98.0
+  - 141.0
+  - 208.0
+  name: object
+  validation: true
+1164:
+  color:
+  - 144.0
+  - 19.0
+  - 193.0
+  name: bathroom vanity
+  validation: true
+1165:
+  color:
+  - 166.0
+  - 36.0
+  - 57.0
+  name: closet wall
+  validation: true
+1166:
+  color:
+  - 212.0
+  - 202.0
+  - 34.0
+  name: laundry hamper
+  validation: true
+1167:
+  color:
+  - 23.0
+  - 206.0
+  - 34.0
+  name: bathroom stall door
+  validation: true
+1168:
+  color:
+  - 91.0
+  - 211.0
+  - 236.0
+  name: ceiling light
+  validation: true
+1169:
+  color:
+  - 79.0
+  - 55.0
+  - 137.0
+  name: trash bin
+  validation: true
+1170:
+  color:
+  - 182.0
+  - 19.0
+  - 117.0
+  name: dumbbell
+  validation: true
+1171:
+  color:
+  - 134.0
+  - 76.0
+  - 14.0
+  name: stair rail
+  validation: true
+1172:
+  color:
+  - 87.0
+  - 185.0
+  - 28.0
+  name: tube
+  validation: true
+1173:
+  color:
+  - 82.0
+  - 224.0
+  - 187.0
+  name: bathroom cabinet
+  validation: true
+1174:
+  color:
+  - 92.0
+  - 110.0
+  - 214.0
+  name: cd case
+  validation: true
+1175:
+  color:
+  - 168.0
+  - 80.0
+  - 171.0
+  name: closet rod
+  validation: true
+1176:
+  color:
+  - 197.0
+  - 63.0
+  - 51.0
+  name: coffee kettle
+  validation: true
+1178:
+  color:
+  - 175.0
+  - 199.0
+  - 77.0
+  name: structure
+  validation: true
+1179:
+  color:
+  - 62.0
+  - 180.0
+  - 98.0
+  name: shower head
+  validation: true
+1180:
+  color:
+  - 8.0
+  - 91.0
+  - 150.0
+  name: keyboard piano
+  validation: true
+1181:
+  color:
+  - 77.0
+  - 15.0
+  - 130.0
+  name: case of water bottles
+  validation: true
+1182:
+  color:
+  - 154.0
+  - 65.0
+  - 96.0
+  name: coat rack
+  validation: true
+1183:
+  color:
+  - 197.0
+  - 152.0
+  - 11.0
+  name: storage organizer
+  validation: true
+1184:
+  color:
+  - 59.0
+  - 155.0
+  - 45.0
+  name: folded chair
+  validation: true
+1185:
+  color:
+  - 12.0
+  - 147.0
+  - 145.0
+  name: fire alarm
+  validation: true
+1186:
+  color:
+  - 54.0
+  - 35.0
+  - 219.0
+  name: power strip
+  validation: true
+1187:
+  color:
+  - 210.0
+  - 73.0
+  - 181.0
+  name: calendar
+  validation: true
+1188:
+  color:
+  - 221.0
+  - 124.0
+  - 77.0
+  name: poster
+  validation: true
+1189:
+  color:
+  - 149.0
+  - 214.0
+  - 66.0
+  name: potted plant
+  validation: true
+1190:
+  color:
+  - 72.0
+  - 185.0
+  - 134.0
+  name: luggage
+  validation: true
+1191:
+  color:
+  - 42.0
+  - 94.0
+  - 198.0
+  name: mattress
+  validation: true
+3000:
+  color:
+  - 100.0
+  - 100.0
+  - 100.0
+  name: unknown
+  validation: true

@@ -1,0 +1,127 @@
+general:
+  train_mode: true 
+  task: "instance_segmentation"
+  seed: 999
+  checkpoint: null
+  backbone_checkpoint: null
+  freeze_backbone: false # train only last layer 
+  linear_probing_backbone: false
+  train_on_segments: true
+  eval_on_segments: true
+  filter_out_instances: false
+  save_visualizations: false
+  visualization_point_size: 20
+  decoder_id: -1
+  export: false 
+  use_dbscan: false
+  ignore_class_threshold: 100
+  project_name: 3D_OWIS 
+  workspace: salwakhatib
+  experiment_name: 3D_OWIS_A 
+  num_targets: 202 
+  add_instance: true
+  dbscan_eps: 0.95
+  dbscan_min_points: 1
+
+
+  export_threshold: 0.0001
+
+  reps_per_epoch: 1
+
+  on_crops: false
+
+  scores_threshold: 0.0
+  iou_threshold: 1.0
+  area: 5
+
+  eval_inner_core: -1 # disabled
+
+  topk_per_image: 100
+
+  ignore_mask_idx: []
+
+  max_batch_size: 99999999
+
+  save_dir: saved/${general.experiment_name}/${general.split}/${general.OW_task}
+
+  gpus: 1
+
+  max_epochs: 601
+  num_queries: 100
+
+  #ORACLE
+  train_oracle: False 
+  
+  #SPLIT and TASK
+  split: 'A'
+  OW_task: 'task1'
+  max_lr: 0.0001 #task1: 0.0001
+
+  #tSNE PLOT
+  save_KN_UKN_tSNE: False # save tsne plots
+  save_features_in: ./temp/${general.experiment_name}/${general.OW_task}/features/
+  use_examplars_in_train: False
+
+  #Autolabeler
+  topk: 30
+  start_auto_labeling: 50 #epoch 50
+  multi_scale_autolabeler_flag: False
+  use_conf_th: False
+  Conf_th: 0.8
+  
+
+  #ENERGY: check https://arxiv.org/abs/2103.02603
+  learn_energy_trainig_dataset: False
+  save_energy_training_dataset_in: ./temp/${general.experiment_name}/${general.OW_task}
+  WARM_UP_EPOCH: 300
+  ENERGY_TEMP: 0.05
+
+  #contrastive clustering
+  enable_baseline_clustering: True 
+  c_loss: 10.0 #multi stage CC: 100.0, one stage CC: 10.0
+  store_path: "./json/${general.experiment_name}/store/store.pt"
+  store_size: 50
+  clustering_start_iter: 20000 #multi stage CC: 121000, one stage CC: 20000
+  clustering_update_mu_iter: 10
+  clustering_momentum: 0.97
+  enable_multiple_stage_clustering: False
+  margin: 1.0
+
+  #PROBABILITY CORRECTION
+  correct_unknown_cls_prob: False
+  baseline_finetune: False # doesn't freeze the prototypes
+
+  #CONTINUAL LEARNING
+  finetune: False
+  num_exmp: 40
+  logg_suffix: ${general.split}_${general.OW_task}
+
+  #OBJECTNESS LOSS
+  obj_loss: 0.5
+  use_obj_loss: False
+
+ 
+  
+
+defaults:
+  - data: indoor
+  - data/data_loaders: simple_loader
+  - data/datasets: scannet200
+  - data/collation_functions: voxelize_collate
+  - logging: full
+  - model: mask3d
+  - metrics: miou
+  - optimizer: adamw
+  - scheduler: onecyclelr
+  - trainer: trainer600 
+  - callbacks: callbacks_instance_segmentation
+  - matcher: hungarian_matcher
+  - loss: set_criterion
+
+hydra:
+  run:
+    dir: saved/hydra_logs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: saved/hydra_logs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    # dir: ${general.save_dir}
+    subdir: ${hydra.job.num}_${hydra.job.id}

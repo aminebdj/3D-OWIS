@@ -1,0 +1,14 @@
+# @package _group_
+
+scheduler:
+  _target_: torch.optim.lr_scheduler.OneCycleLR
+  max_lr: ${optimizer.lr}
+  epochs: ${trainer.max_epochs}
+  final_div_factor: 1000.0
+  div_factor: 700.0
+  three_phase: True
+  # need to set to number because of tensorboard logger
+  steps_per_epoch: -1
+
+pytorch_lightning_params:
+  interval: step
