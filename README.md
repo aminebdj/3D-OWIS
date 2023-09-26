@@ -42,7 +42,7 @@ https://github.com/aminebdj/3D-OWIS/assets/95423980/f889b307-ab97-4047-ad45-d501
 
 ### News
 
-* **25 September 2023**: [3D-OWIS paper](https://arxiv.org/abs/2210.03105) released on arXiv. 📝
+* **25 September 2023**: [3D-OWIS paper](https://arxiv.org/abs/2309.14338) released on arXiv. 📝
 * **25 September 2023**: Code and splits released. 💻
 * **22 September 2023**: Paper accepted into <b>NeurIPS2023</b>. 🥳
 
