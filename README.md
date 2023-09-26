@@ -13,7 +13,7 @@
 
 <div align="center">
  
-<a href='https://arxiv.org/pdf/2309.14338.pdf' target="_blank">![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)</a> <a href='https://aminebdj.github.io/publications/3d_owis' target="_blank">![paper](https://img.shields.io/badge/Publication-Webpage-orange.svg)</a></a>
+<a href='arxiv.org/pdf/2309.14338' target="_blank">![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)</a> <a href='https://aminebdj.github.io/publications/3d_owis' target="_blank">![paper](https://img.shields.io/badge/Publication-Webpage-orange.svg)</a></a>
 
  </div>
 
