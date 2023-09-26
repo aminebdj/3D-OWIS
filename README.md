@@ -174,12 +174,11 @@ general.train_mode=false
 
 ## BibTeX :pray:
 ```
-@misc{boudjoghra20233d,
-        title={3D Indoor Instance Segmentation in an Open-World}, 
-        author={Mohamed El Amine Boudjoghra and Salwa K. Al Khatib and Jean Lahoud and Hisham Cholakkal and Rao Muhammad Anwer and Salman Khan and Fahad Khan},
-        year={2023},
-        eprint={2309.14338},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
-  }
+@inproceedings{boudjoghra20233d,
+ author = {Mohamed El Amine Boudjoghra and Salwa K. Al Khatib and Jean Lahoud and Hisham Cholakkal and Rao Muhammad Anwer and Salman Khan and Fahad Khan},
+ booktitle = {Advances in Neural Information Processing Systems},
+ title = {3D Indoor Instance Segmentation in an Open-World},
+ year = {2023}
+}
+
 ```
