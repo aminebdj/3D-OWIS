@@ -41,7 +41,8 @@ pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --e
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu116.html
 
 pip install ninja==1.10.2.3
-pip install pytorch-lightning==1.7.2 fire imageio tqdm wandb python-dotenv pyviz3d scipy plyfile scikit-learn trimesh loguru albumentations volumentations
+pip install pytorch-lightning==1.7.2
+pip install fire imageio tqdm wandb python-dotenv pyviz3d scipy plyfile scikit-learn trimesh loguru albumentations volumentations
 
 pip install antlr4-python3-runtime==4.8
 pip install black==21.4b2
