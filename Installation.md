@@ -57,7 +57,7 @@ cd third_party/pointnet2 && python setup.py install
 pip install fvcore
 pip install reliability
 pip install shortuuid
-pip install pycocotools==2.0.4
+pip install pycocotools==2.0.7
 pip install seaborn 
 pip install cloudpickle==2.1.0
 
