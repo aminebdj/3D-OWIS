@@ -37,7 +37,7 @@ conda activate 3d_owis
 conda update -n base -c defaults conda
 conda install openblas-devel -c anaconda
 
-pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu116
+pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu116.html
 
 pip install ninja==1.10.2.3
