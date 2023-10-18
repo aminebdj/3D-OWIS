@@ -42,7 +42,10 @@ pip install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu116.html
 
 pip install ninja==1.10.2.3
 pip install pytorch-lightning==1.7.2
-pip install fire imageio tqdm wandb python-dotenv pyviz3d scipy plyfile scikit-learn trimesh loguru albumentations volumentations
+pip install fire imageio tqdm wandb python-dotenv pyviz3d scipy plyfile scikit-learn trimesh loguru albumentations
+
+pip install "cython<3.0.0" wheel && pip install pyyaml==5.4.1 --no-build-isolation
+pip install volumentations==0.1.8
 
 pip install antlr4-python3-runtime==4.8
 pip install black==21.4b2
