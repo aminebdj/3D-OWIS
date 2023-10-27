@@ -5,12 +5,13 @@ export OMP_NUM_THREADS=3  # speeds up MinkowskiEngine
 python main_instance_segmentation.py \
 general.OW_task="task1" \
 general.split="B" \
-general.experiment_name="3D_OWIS" \
+general.experiment_name="3D_OWIS_B" \
 general.project_name="3D_OWIS" \
 general.use_conf_th=true \
 general.margin=3.0 \
 general.max_lr=0.0001 \
-scheduler=onecyclelr_1stage
+scheduler=onecyclelr_1stage \
+general.max_epochs=301
 
 python main_instance_segmentation.py \
 general.OW_task="task2" \
