@@ -17,9 +17,6 @@ from detectron2.projects.point_rend.point_features import (
 
 from collections import deque
 from models.misc import is_dist_avail_and_initialized, nested_tensor_from_tensor_list
-# from torch.autograd.function import Function
-# import os
-# from datasets.scannet200.scannet200_splits import HEAD_PRED_IDS, COMMON_PRED_IDS, TAIL_PRED_IDS
 from datasets.scannet200.owis_splits import KNOWN_CLASSES_IDS, PREV_KNOWN_CLASSES_IDS
 
 def dice_loss(
@@ -134,9 +131,6 @@ class SetCriterion(nn.Module):
         """
         super().__init__()
         
-        # global HEAD_PRED_IDS
-        # global COMMON_PRED_IDS
-        # global TAIL_PRED_IDS
         global KNOWN_CLASSES_IDS
         
 
@@ -328,16 +322,9 @@ class SetCriterion(nn.Module):
             else:
                 # sample all points
                 point_idx = torch.arange(target_mask.shape[1], device=target_mask.device)
-
-            # num_masks = target_mask.shape[0]
             map = map[:, point_idx]
             device = map.device
             target_mask = target_mask[:, point_idx].float()
-            #################################################################f
-            #################################################################
-            #################################################################
-            # print(targets[batch_id]['labels'][target_id] )
-            # print(mask_type)
             if self.train_is_true:
                 if self.train_oracle:
                     ignore_masks = targets[batch_id]['labels'][target_id] != 253 
@@ -348,12 +335,6 @@ class SetCriterion(nn.Module):
                 map = map[ignore_masks]
                 num_masks = target_mask.shape[0]
                 
-            # print(map.shape)
-            # print(target_mask.shape)
-            # print(num_masks)
-            #################################################################
-            #################################################################
-            #################################################################
             if num_masks!=0: #only for scenes which have the common class
                 loss_masks.append(sigmoid_ce_loss_jit(map,
                                                     target_mask,
@@ -512,16 +493,8 @@ class Queue:
         
         self.seen_cls = seen_cls
         self.num_seen_cls = store_cap[0]
-        # self.size_per_cls = (store_cap[1], store_cap[2])
         self.size_per_cls = store_cap[1]
-        
-        # self.store = [torch.zeros(size = self.size_per_cls) for _ in range(self.num_seen_cls)]
         self.store = [deque(maxlen=self.size_per_cls) for _ in range(self.num_seen_cls)]
-        # self.store_path = store_path
-        # root = store_path.replace('store.pt', '')
-        # if not os.path.exists(root):
-        #     os.makedirs(root)
-        # torch.save(self.store, self.store_path)
         self.save_dir = save_dir
         self.task = save_dir.split('/')[-1]
         finetune_exists = "finetune" in self.task.split('_')
@@ -541,16 +514,7 @@ class Queue:
 
             
     def update_store(self, outputs, targets , indices):
-        # oracle = False
-        # self.store = torch.load(self.store_path)
-        # self.store = [t for t in self.store]
         self.device = outputs['pred_logits'].device
-        # pred_logits = outputs['pred_logits']
-        # pred_logits = torch.functional.F.softmax(
-        #     pred_logits ,
-        #     dim=-1)[..., :-1]
-        # pred_labels = torch.argmax(pred_logits, dim=-1).detach().cpu()
-        # unkn_lbs = pred_labels==200
         for batch_id, (map_id, target_id) in enumerate(indices): 
             #known
             tg_labels = targets[batch_id]['labels'][target_id].detach().cpu()
@@ -563,23 +527,12 @@ class Queue:
                 label_list.remove(253)
                 
             for tg in label_list:
-                # num_feats = (tg_labels == tg).sum()
-                # if tg != 200:
                 self.store[tg].append(ref_qerries[tg_labels==tg])
-                # else:
-                #     #oracle
-                #     self.store[-1].append(ref_qerries[tg_labels==tg])
-   
-            #unknown
-            # num_feats = (unkn_lbs[batch_id]).sum()
-            # if num_feats != 0:
-            #     self.store[200].append(all_ref_querries[unkn_lbs[batch_id]])
 
-        # torch.save(self.store, self.store_path)
     def get_store(self):
         return self.store
+
     def get_means(self):
-        # for i in len(self.store):
         means = [torch.mean(torch.cat(list(self.store[i])).float(), dim=0) for i in self.seen_cls]  
         curr_means = torch.stack(means).to(self.device)
         
@@ -587,5 +540,4 @@ class Queue:
             torch.save(torch.cat([self.prev_means, curr_means]), self.save_dir+"/"+self.task+"_classes_means.pkl")
         else:
             torch.save(curr_means, self.save_dir+"/"+self.task+"_classes_means.pkl")
-            
         return curr_means

@@ -25,7 +25,6 @@ import random
 import colorsys
 from typing import List, Tuple
 import functools
-##########################
 import json
 import matplotlib.pyplot as plt
 from plyfile import PlyData, PlyElement
@@ -553,12 +552,11 @@ class InstanceSegmentation(pl.LightningModule):
         self.eval_instance_step(output, target, target_full, inverse_maps, file_names, original_coordinates,
                                 original_colors, original_normals, raw_coordinates, data_idx,
                                 backbone_features=rescaled_pca if self.config.general.save_visualizations else None)
-#######################################################################################
+
         if self.config.data.test_mode != "test":
             return {f"val_{k}": v.detach().cpu().item() for k, v in losses.items()}
         else:
             return 0.
-#######################################################################################
     def test_step(self, batch, batch_idx):
         return self.eval_step(batch, batch_idx)
 
@@ -1321,9 +1319,6 @@ class InstanceSegmentation(pl.LightningModule):
                 else:
                     masks = output['aux_outputs'][L]['pred_masks'][batch_idx]
                 
-                # if self.config.general.use_obj_loss:
-                #     score_L = output['obj']
-                # else:
                 score_L, _, _ = self.get_scores(
                         pred_logits[batch_idx],
                         masks,
@@ -1341,24 +1336,13 @@ class InstanceSegmentation(pl.LightningModule):
             pred_logits = torch.functional.F.softmax(
                 pred_logits ,
                 dim=-1)[..., :-1]
-            
-            # if self.config.general.use_obj_loss:
-            #     scores = output['obj'][batch_idx]
-            # else:
+
             scores, _, _ = self.get_scores(
                     pred_logits[batch_idx],
                     masks,
                     raw_coord[min_id:max_id],
                     point2segment[batch_idx])
-        # potential_ukn = torch.Tensor([i for i in range(self.model.num_queries)]).long()
-        
-        # for i in range(indices[batch_idx][0].shape[0]): 
-        #     potential_ukn = potential_ukn[potential_ukn!=indices[batch_idx][0][i]]
         scores = scores.detach().cpu()  
-        
-        
-        # topk_scores_indices = scores_indices[potential_ukn][:topk]
-        
         
         if self.config.general.use_conf_th:
             topk_scores_indices = torch.where(scores>Conf_th)[0]
@@ -1370,20 +1354,12 @@ class InstanceSegmentation(pl.LightningModule):
         
         unk_mask = max_IoU_per_GT<IoU_th
         IoU_indices = torch.where(unk_mask)[0].detach().cpu()
-            #indices of masks with topk score and no intersection with the GT
         indx_ukns = torch.from_numpy(np.intersect1d(IoU_indices,topk_scores_indices))
-        # print(indx_ukns)
         if return_ukn_idxs:
             pred_labels = torch.argmax(pred_logits, dim = -1)
             indx_ukns_c = indx_ukns.to(pred_labels.device).clone()
             return pred_labels.permute(1,0)[indx_ukns_c].clone()
         else:
-            # output['pred_logits'] = output['pred_logits'].permute(0,2,1)
-            # output['aux_outputs'][-1]['pred_logits'] = output['aux_outputs'][-1]['pred_logits'].permute(0,2,1)
-            # output['pred_logits'][batch_idx][-2][indx_ukns] = 100000
-            # output['aux_outputs'][-1]['pred_logits'][batch_idx][-2][indx_ukns] = 100000
-            # output['pred_logits'] = output['pred_logits'].permute(0,2,1)
-            # output['aux_outputs'][-1]['pred_logits'] = output['aux_outputs'][-1]['pred_logits'].permute(0,2,1)
             target[batch_idx]['segment_mask'] = torch.cat((target[batch_idx]['segment_mask'],output['pred_masks'][batch_idx].permute(1,0)[indx_ukns]), dim=0)
             target[batch_idx]['labels'] = torch.cat((target[batch_idx]['labels'],(torch.ones_like(indx_ukns)*self.ukn_cls).to(target[batch_idx]['labels'].device)))
             return target
