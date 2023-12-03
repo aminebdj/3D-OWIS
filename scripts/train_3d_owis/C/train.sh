@@ -10,8 +10,7 @@ general.project_name="3D_OWIS" \
 general.use_conf_th=true \
 general.margin=1.0 \
 general.max_lr=0.0001 \
-scheduler=onecyclelr_1stage \
-general.max_epochs=301
+scheduler=onecyclelr_1stage
 
 python main_instance_segmentation.py \
 general.OW_task="task2" \
