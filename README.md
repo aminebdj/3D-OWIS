@@ -137,7 +137,7 @@ For training a model ```<MODEL>``` with a split ```<SPLIT>``` please run the fol
 
 **NB**: ```<SPLIT>``` takes the values **'A'**, **'B'**, or **'C'**. 
 
-We provide the scripts for reproducing the results for the three models **3d_owis**, **3d_owis-pc-ct**, and **oracle**.
+We provide the scripts for reproducing the results for the models **3d_owis**, and **oracle**.
 
 ```bash
 sh scripts/train_<MODEL>/<SPLIT>/train.sh
